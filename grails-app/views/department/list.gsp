@@ -33,7 +33,7 @@
                 <td>${i+1}</td>
                 <td>${department.name}</td>
                 <td class="action">
-                    <g:link onclick="return confirm('Are you sure???')" action="delete" id="${department.id}">Delete</g:link>
+                    <g:link onclick="return confirm('Are you sure?')" action="delete" id="${department.id}">Delete</g:link>
                     <g:link action="edit" id="${department.id}">Edit</g:link>
                 </td>
             </tr>
